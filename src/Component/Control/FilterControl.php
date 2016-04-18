@@ -114,7 +114,7 @@ class FilterControl extends Part implements ControlInterface
                 'data-control' => 'filter',
             ],
             'inline' => true,
-            'label' => StaticStringy::humanize($this->field),
+            //'label' => StaticStringy::humanize($this->field),
         ];
         if ($this->valueOption !== null) {
             $defaults['name'] = $this->valueOption->getKey();
