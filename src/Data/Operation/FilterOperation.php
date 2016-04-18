@@ -16,6 +16,8 @@ class FilterOperation implements OperationInterface
     const OPERATOR_LT = '<';
     const OPERATOR_LTE = '<=';
     const OPERATOR_GTE = '>=';
+    const OPERATOR_DATE = 'DATE';
+
 
     protected $field;
 
