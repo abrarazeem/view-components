@@ -14,6 +14,7 @@ if ($component->getLinkTemplateName() === 'controls/pagination/link') {
     $component->setLinkTemplateName('themes/twitter_bootstrap/controls/pagination/link');
 }
 ?>
+    <?php if($total != 0 ): ?>
 <nav data-role="control-container" data-control="pagination">
     <ul class="pagination">
         <?= $component->renderLink(1, '«') ?>
@@ -46,3 +47,4 @@ if ($component->getLinkTemplateName() === 'controls/pagination/link') {
         <?= $component->renderLink($total, '»') ?>
     </ul>
 </nav>
+<?php endif;  ?>
