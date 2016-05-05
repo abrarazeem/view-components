@@ -47,4 +47,6 @@ if ($component->getLinkTemplateName() === 'controls/pagination/link') {
         <?= $component->renderLink($total, '»') ?>
     </ul>
 </nav>
-<?php endif;  ?>
+<?php else:  ?>
+    <p class="text-center "> <b>No Records Found</b> </p>
+<?php endif; ?>
