@@ -22,7 +22,7 @@ return [
     'compound_part#form' => 'add_class:form-inline',
     'tag&property:type,submit' => [
         'add_class:' . $helper->getButtonClasses('btn-success'),
-        $useIcons ? 'prepend_text:<i class="glyphicon glyphicon-refresh"></i>&nbsp;' : []
+        $useIcons ? 'prepend_text:<i class="glyphicon "></i>&nbsp;' : []
     ],
     'tag:table' => 'add_class: ' . $helper->getTableClasses(),
     'tag:button&property:type,button' => 'add_class: ' . $helper->getButtonClasses(),
